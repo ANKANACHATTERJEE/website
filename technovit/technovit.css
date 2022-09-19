@@ -45,12 +45,18 @@
   .flex-container > img{
     display: flex;
     box-shadow:  0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(255, 255, 255);
-    height: 300px;
-    width: 300px;
+    height: 50vh;
+    width: 20vw;
   }
   @media (max-width: 800px) {
     .flex-container {
       flex-direction: column;
       margin: 10% 15%;
     }
+    .flex-container > img{
+        display: flex;
+        box-shadow:  0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(255, 255, 255);
+        height: 50vh;
+        width: 50vw;
+      }
   }
